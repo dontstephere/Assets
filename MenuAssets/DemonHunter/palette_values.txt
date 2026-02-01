@@ -1,0 +1,24 @@
+DemonHunter Palette (used for previews)
+------------------------------------------------
+BG_DARK = (22, 16, 24, 250)  ()
+BG_PANEL = (38, 26, 42, 255)  ()
+BG_NAV = (32, 20, 36, 255)  ()
+BG_HEADER = (28, 18, 32, 255)  ()
+BG_INPUT = (46, 32, 52, 255)  ()
+ACCENT_PRIMARY = (163, 48, 201, 255)  (#A330C9)
+ACCENT_PRIMARY_DIM = (125, 36, 155, 200)  (#7D249B)
+ACCENT_SECONDARY = (80, 220, 160, 255)  (#50DCA0)
+ACCENT_ERROR = (255, 90, 90, 255)  (#FF5A5A)
+BORDER_DARK = (58, 42, 62, 255)  (#3A2A3E)
+BORDER_PANEL = (82, 56, 90, 255)  (#52385A)
+BORDER_ACCENT = (163, 48, 201, 255)  (#A330C9)
+TEXT_WHITE = (255, 255, 255, 255)  (#FFFFFF)
+TEXT_GRAY = (195, 180, 200, 255)  (#C3B4C8)
+TEXT_DIM = (135, 115, 145, 255)  (#877391)
+TEXT_ACCENT = (200, 120, 235, 255)  (#C878EB)
+HOVER = (50, 36, 56, 255)  ()
+SELECTED = (65, 46, 72, 255)  ()
+
+Notes:
+- noise_128.* tint blend factor t=0.18
+- noise tint target (accent->white 55%): (213, 161, 230)

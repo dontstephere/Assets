@@ -1,0 +1,24 @@
+Evoker Palette (used for previews)
+------------------------------------------------
+BG_DARK = (14, 20, 20, 250)  ()
+BG_PANEL = (24, 36, 35, 255)  ()
+BG_NAV = (18, 30, 29, 255)  ()
+BG_HEADER = (16, 26, 25, 255)  ()
+BG_INPUT = (30, 44, 42, 255)  ()
+ACCENT_PRIMARY = (51, 147, 127, 255)  (#33937F)
+ACCENT_PRIMARY_DIM = (40, 112, 98, 200)  (#287062)
+ACCENT_SECONDARY = (180, 140, 220, 255)  (#B48CDC)
+ACCENT_ERROR = (255, 90, 90, 255)  (#FF5A5A)
+BORDER_DARK = (38, 55, 52, 255)  (#263734)
+BORDER_PANEL = (52, 78, 72, 255)  (#344E48)
+BORDER_ACCENT = (51, 147, 127, 255)  (#33937F)
+TEXT_WHITE = (255, 255, 255, 255)  (#FFFFFF)
+TEXT_GRAY = (175, 192, 190, 255)  (#AFC0BE)
+TEXT_DIM = (110, 135, 130, 255)  (#6E8782)
+TEXT_ACCENT = (100, 190, 170, 255)  (#64BEAA)
+HOVER = (32, 48, 46, 255)  ()
+SELECTED = (42, 62, 58, 255)  ()
+
+Notes:
+- noise_128.* tint blend factor t=0.18
+- noise tint target (accent->white 55%): (163, 206, 197)

@@ -1,0 +1,24 @@
+Monk Palette (used for previews)
+------------------------------------------------
+BG_DARK = (14, 22, 20, 250)  ()
+BG_PANEL = (24, 38, 34, 255)  ()
+BG_NAV = (18, 32, 28, 255)  ()
+BG_HEADER = (16, 28, 24, 255)  ()
+BG_INPUT = (30, 46, 40, 255)  ()
+ACCENT_PRIMARY = (0, 255, 150, 255)  (#00FF96)
+ACCENT_PRIMARY_DIM = (0, 195, 115, 200)  (#00C373)
+ACCENT_SECONDARY = (150, 200, 255, 255)  (#96C8FF)
+ACCENT_ERROR = (255, 90, 90, 255)  (#FF5A5A)
+BORDER_DARK = (35, 58, 50, 255)  (#233A32)
+BORDER_PANEL = (48, 80, 68, 255)  (#305044)
+BORDER_ACCENT = (0, 255, 150, 255)  (#00FF96)
+TEXT_WHITE = (255, 255, 255, 255)  (#FFFFFF)
+TEXT_GRAY = (175, 195, 188, 255)  (#AFC3BC)
+TEXT_DIM = (110, 140, 130, 255)  (#6E8C82)
+TEXT_ACCENT = (100, 255, 190, 255)  (#64FFBE)
+HOVER = (30, 50, 44, 255)  ()
+SELECTED = (38, 65, 56, 255)  ()
+
+Notes:
+- noise_128.* tint blend factor t=0.18
+- noise tint target (accent->white 55%): (140, 255, 207)

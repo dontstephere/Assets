@@ -1,0 +1,24 @@
+Druid Palette (used for previews)
+------------------------------------------------
+BG_DARK = (22, 18, 14, 250)  ()
+BG_PANEL = (38, 30, 24, 255)  ()
+BG_NAV = (32, 25, 18, 255)  ()
+BG_HEADER = (28, 22, 16, 255)  ()
+BG_INPUT = (46, 36, 28, 255)  ()
+ACCENT_PRIMARY = (255, 125, 10, 255)  (#FF7D0A)
+ACCENT_PRIMARY_DIM = (200, 95, 8, 200)  (#C85F08)
+ACCENT_SECONDARY = (100, 200, 180, 255)  (#64C8B4)
+ACCENT_ERROR = (255, 80, 80, 255)  (#FF5050)
+BORDER_DARK = (60, 48, 38, 255)  (#3C3026)
+BORDER_PANEL = (85, 68, 52, 255)  (#554434)
+BORDER_ACCENT = (255, 125, 10, 255)  (#FF7D0A)
+TEXT_WHITE = (255, 255, 255, 255)  (#FFFFFF)
+TEXT_GRAY = (198, 185, 175, 255)  (#C6B9AF)
+TEXT_DIM = (140, 125, 110, 255)  (#8C7D6E)
+TEXT_ACCENT = (255, 165, 80, 255)  (#FFA550)
+HOVER = (52, 42, 32, 255)  ()
+SELECTED = (68, 54, 42, 255)  ()
+
+Notes:
+- noise_128.* tint blend factor t=0.18
+- noise tint target (accent->white 55%): (255, 196, 144)
