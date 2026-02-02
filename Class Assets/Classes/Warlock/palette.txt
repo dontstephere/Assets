@@ -1,0 +1,28 @@
+Warlock - Blizzard Stone Layered Panel System
+====================================================
+ACCENT_PRIMARY_RGB = 148, 130, 201
+
+Overlay alpha multipliers (suggested when drawing overlays):
+- HeaderOverlay_1050x45: 0.28
+- NavigationOverlay_190x705: 0.24
+- ContentHeaderOverlay_805x50: 0.26
+- ContentPanelOverlay_805x610: 0.22
+- NavItemOverlay_180x28: 0.30
+- ControlPanelOverlay_588x65: 0.26
+- ControlPanelButtonOverlay_50x50: 0.30
+- DropdownBoxOverlay_180x22: 0.30
+- DropdownOptionsOverlay_180x180: 0.25
+- BorderFrameOverlay_1058x758: 0.20
+- CheckboxOverlay_18x18: 0.35
+- ToggleSwitchOverlay_40x20: 0.32
+- SliderTrackOverlay_256x10: 0.26
+- SliderThumbOverlay_14x16: 0.30
+- KeybindButtonOverlay_120x28: 0.28
+- DefaultsButtonOverlay_100x28: 0.28
+- ScrollbarTrackOverlay_8x256: 0.18
+- ScrollbarThumbOverlay_8x64: 0.22
+
+Usage:
+1) Draw tiled base (Shared/stone_tile_256) with white tint and low alpha.
+2) Draw this class overlay on top with white tint (do NOT tint again).
+3) Use pure class color only for borders/toggles/highlights.
