@@ -1,17 +1,18 @@
-Nova Blizzard-Style Panel Material Pack
-======================================
+Nova Blizzard Stone Material Pack v2
+===================================
 
-Goal: subtle Blizzard-like panel material (neutral, not class-colored).
-Use the 'Sized' textures if your renderer stretches textures.
-Use the 'Tileable' textures if you implement tiling/repeat.
+Target: Default Blizzard stone/metal UI feel (spellbook/character-frame style).
 
-Recommended draw order:
-1) Base fill: BG_PANEL / BG_NAV (neutral dark)
-2) Overlay material: use white tint with low alpha
+Use 'Sized' if your renderer stretches textures.
+Use 'Tileable' if you later add UV tiling/repeat.
+
+Recommended usage:
+- Draw your neutral BG fill first.
+- Overlay this material with white tint and low alpha.
 
 Suggested alpha (8-bit):
-- Large panels (ContentPanel / BorderFrame): 10-14 (4-6%)
-- Small controls (buttons/checkbox): 8-12 (3-5%)
+- Large panels: 12–18 (5–7%)
+- Small controls: 10–14 (4–6%)
 
-Important: do NOT tint the material with class colors.
-Apply class color only to borders, toggles, highlights.
+Do NOT tint these textures with class colors.
+Apply class colors only to borders/toggles/highlights.
