@@ -1,0 +1,31 @@
+Evoker Class Tint Settings (Blizzard Stone)
+============================================
+CLASS_RGB = 51, 147, 127
+
+Per-texture tint alpha (applied as shadow-weighted lerp):
+- BorderFrame: 0.06
+- Checkbox: 0.10
+- ContentHeader: 0.09
+- ContentPanel: 0.07
+- ControlPanel: 0.08
+- ControlPanelButton: 0.10
+- DefaultsButton: 0.09
+- DropdownBox: 0.10
+- DropdownOptions: 0.08
+- Header: 0.10
+- KeybindButton: 0.09
+- NavItem: 0.10
+- Navigation: 0.08
+- ScrollbarThumb: 0.08
+- ScrollbarTrack: 0.06
+- SliderThumb: 0.10
+- SliderTrack: 0.08
+- ToggleSwitch: 0.10
+
+Tileable overlays:
+- stone_mottle_tile_512: 0.06
+- stone_grain_tile_256: 0.04
+
+Notes:
+- These textures are PRE-TINTED and should be drawn with WHITE tint in code.
+- Do NOT additionally tint them with class color at runtime.
